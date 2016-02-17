@@ -1,0 +1,100 @@
+{% extends "header.html" %}
+
+{% block body %}
+
+<div class="container">
+  {% if GAMES.BORDERLANDS %}
+  <div class="row">
+    <div class="col-sm-6 col-md-3 col-lg-3">
+      <div class="thumbnail">
+        <img src='static/roland.jpg'>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-3 col-lg-3">
+      <div class="thumbnail">
+        <img src='static/lilith.jpg'>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-3 col-lg-3">
+      <div class="thumbnail">
+        <img src='static/brick.jpg'>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-3 col-lg-3">
+      <div class="thumbnail">
+        <img src='static/mordecai.jpg'>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+  {% if GAMES.BORDERLANDS2 %}
+  <div class="row">
+    <div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="thumbnail">
+        <img src='static/axton.jpg'>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="thumbnail">
+        <img src='static/salvadore.jpg'>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="thumbnail">
+        <img src='static/krieg.jpg'>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="thumbnail">
+        <img src='static/gaige.jpg'>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="thumbnail">
+        <a href="/skilltrees/Maya/"><img src='static/maya.jpg'></a>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="thumbnail">
+        <img src='static/zer0.jpg'>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+  {% if GAMES.BORDERLANDSTPS %}
+  <div class="row">
+    <div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="thumbnail">
+        <img src='static/athena.jpg'>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="thumbnail">
+        <img src='static/wilhelm.jpg'>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="thumbnail">
+        <img src='static/nisha.jpg'>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="thumbnail">
+        <img src='static/jack.jpg'>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="thumbnail">
+        <img src='static/aurelia.jpg'>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="thumbnail">
+        <img src='static/claptrap.jpg'>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+</div>
+
+{% endblock %}

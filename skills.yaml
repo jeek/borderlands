@@ -1,0 +1,222 @@
+Maya:
+    Class: Siren
+    Treeorder: [Motion, Harmony, Cataclysm]
+    Trees:
+        Motion:
+            Ward:
+                Tier: 1
+                Pos: 1
+                Levels: 5
+                Effect: +5% Shield Capacity and -8% Shield Recharge Delay per level.
+                Image: siren-motion-0.png
+            Accelerate:
+                Tier: 1
+                Pos: 3
+                Levels: 5
+                Effect: +3% Gun Damage and +4% Bullet Speed per level.
+                Image: siren-motion-1.png
+            Suspension:
+                Tier: 2
+                Pos: 1
+                Levels: 5
+                Effect: Increases the duration of Phaselock by 0.5s per level.
+                Image: siren-motion-2.png
+            Kinetic Reflection:
+                Tier: 2
+                Pos: 3
+                Levels: 5
+                Effect: Kill Skill. Killing an enemy causes you to deflect bullets against nearby enemies, reducing damage to you by 10% and dealing 20% damage per level for a short time.
+                Image: siren-motion-3.png
+            Fleet:
+                Tier: 3
+                Pos: 1
+                Levels: 5
+                Effect: Your Movement Speed increases by 10% per level while your shields are depleted.
+                Image: siren-motion-4.png
+            Converge:
+                Tier: 3
+                Pos: 2
+                Levels: 1
+                Effect: Your Phaselock ability now also pulls nearby enemies toward the original target.
+                Image: siren-motion-5.png
+            Inertia:
+                Tier: 3
+                Pos: 3
+                Levels: 5
+                Effect: Kill Skill. Killing an enemy regenerates 0.8% of your Shield per second and increases your Reload Speed by 10% per level for a short time.
+                Image: siren-motion-6.png
+            Quicken:
+                Tier: 4
+                Pos: 2
+                Levels: 5
+                Effect: Increases the Cooldown Rate of your Phaselock's Ability by 6% per level.
+                Image: siren-motion-7.png
+            Sub-Sequence:
+                Tier: 5
+                Pos: 2
+                Levels: 5
+                Effect: When an enemy dies under the effects of Phaselock, there is a chance for your Phaselock to seek out and affect another target (20% chance per level).
+                Image: siren-motion-8.png
+            Thoughtlock:
+                Tier: 6
+                Pos: 2
+                Levels: 1
+                Effect: Phaselock causes enemies to switch allegiance and fight amongst themselves. Additionally, Phaselock's duration and cooldown is increased (3s and 4s respectively).
+                Image: siren-motion-9.png
+        Harmony:
+            Mind's Eye:
+                Tier: 1
+                Pos: 1
+                Levels: 5
+                Effect: +5% Critical Hit Damage and +6% Melee Damage per level
+                Image: siren-harmony-0.png
+            Sweet Release:
+                Tier: 1
+                Pos: 3
+                Levels: 5
+                Effect: Killing an enemy who is currently Phaselocked creates 1 Life Orb per level which automatically seeks out and heals you and your friends. The healing is stronger when you or your friend's health is low (up to 15% per Orb, does not increase with level).
+                Image: siren-harmony-1.png
+            Restoration:
+                Tier: 2
+                Pos: 1
+                Levels: 5
+                Effect: +3% Maximum Health and attack allies to heal them for 6% of the attack damage per level.
+                Image: siren-harmony-2.png
+            Wreck:
+                Tier: 2
+                Pos: 3
+                Levels: 5
+                Effect: +10% Fire Rate and +6% Damage with guns per level while you have an enemy Phaselocked.
+                Image: siren-harmony-3.png
+            Elated:
+                Tier: 3
+                Pos: 1
+                Levels: 5
+                Effect: You and your friends regenerate 1% health per second per level while you have an enemy Phaselocked.
+                Image: siren-harmony-4.png
+            Res:
+                Tier: 3
+                Pos: 2
+                Levels: 1
+                Effect: You can instantly revive a friend in Fight for Your Life by using Phaselock on him/her.
+                Image: siren-harmony-5.png
+            Recompense:
+                Tier: 3
+                Pos: 3
+                Levels: 5
+                Effect: Taking Health damage has a 10% chance per level of dealing an equal amount of damage to your attacker.
+                Image: siren-harmony-6.png
+            Sustenance:
+                Tier: 4
+                Pos: 2
+                Levels: 5
+                Effect: Regenerate 0.4% of your missing Health per second per level.
+                Image: siren-harmony-7.png
+            Life Tap:
+                Tier: 5
+                Pos: 2
+                Levels: 5
+                Effect: Kill Skill. Killing an enemy gives you 1.2% Life Steal per level for a short while.
+                Image: siren-harmony-8.png
+            Scorn:
+                Tier: 6
+                Pos: 2
+                Levels: 1
+                Effect: Melee Override. Press [melee] to throw an Orb of Slag that constantly damages enemies near it. This ability has a 18 second cooldown. Pressing [melee] when Scorn is on cooldown will perform a regular melee attack.
+                Image: siren-harmony-9.png
+        Cataclysm:
+            Flicker:
+                Tier: 1
+                Pos: 1
+                Levels: 5
+                Effect: +6% Elemental Effect Chance per level.
+                Image: siren-cataclysm-0.png
+            Foresight:
+                Tier: 1
+                Pos: 3
+                Levels: 5
+                Effect: Increases Magazine Size and Reload Speed with all weapon types. +4% Magazine Size and +5% Reload Speed per level.
+                Image: siren-cataclysm-1.png
+            Immolate:
+                Tier: 2
+                Pos: 1
+                Levels: 5
+                Effect: Adds +10% Damage per level as Fire Damage to all shots fired when in Fight For Your Life.
+                Image: siren-cataclysm-2.png
+            Helios:
+                Tier: 2
+                Pos: 3
+                Levels: 5
+                Effect: Phaselocking an enemy causes a fiery explosion, damaging all nearby enemies. +1 Helios Damage Rank per level.
+                Image: siren-cataclysm-3.png
+            Chain Reaction:
+                Tier: 3
+                Pos: 1
+                Levels: 5
+                Effect: While you have an enemy Phaselocked all of your bullets that hit enemies have a 8% chance per level to ricochet and hit another nearby enemy.
+                Image: siren-cataclysm-4.png
+            Backdraft:
+                Tier: 3
+                Pos: 3
+                Levels: 5
+                Effect: Your melee attacks deal additional Fire Damage. Also, when your shields become depleted you create a fiery explosion, damaging nearby enemies. Your shields must fully recharge between explosions. +1 Backdraft Damage Rank per level.
+                Image: siren-cataclysm-6.png
+            Cloud Kill:
+                Tier: 3
+                Pos: 2
+                Levels: 1
+                Effect: Shooting an enemy creates a lingering Acid Cloud, which lasts for 5 seconds, dealing constant Corrosive Damage to enemies who touch it. Only one Acid Cloud can be active at a time.
+                Image: siren-cataclysm-5.png
+            Reaper:
+                Tier: 4
+                Pos: 2
+                Levels: 5
+                Effect: You deal +8% increased Gun Damage per level to any enemy who has more than 50% of his health remaining.
+                Image: siren-cataclysm-7.png
+            Blight Phoenix:
+                Tier: 5
+                Pos: 2
+                Levels: 5
+                Effect: Kill Skill. Killing an enemy causes you to deal constant Fire and Corrosive Damage to nearby enemies for a short time. The damage is based on your Level and the Level of the Blight Phoenix.
+                Image: siren-cataclysm-8.png
+            Ruin:
+                Tier: 6
+                Pos: 2
+                Levels: 1
+                Effect: Action Skill Augmentation. Phaselock now slags, corrodes and electrocutes all nearby enemies.
+                Image: siren-cataclysm-9.png
+Axton:
+    Class: Commando
+    Treeorder: [Guerilla, Gunpowder, Survival]
+    Trees:
+        Guerilla:
+        Gunpowder:
+        Survival:
+Gaige:
+    Class: Mechromancer
+    Treeorder: [Best Friends Forever, Little Big Trouble, Ordered Chaos]
+    Trees:
+        Best Friends Forever:
+        Little Big Trouble:
+        Ordered Chaos:
+Salvadore:
+    Class: Gunzerker
+    Treeorder: [Gun Lust, Rampage, Brawn]
+    Trees:
+        Gun Lust:
+        Rampage:
+        Brawn:
+Zer0:
+    Class: Assassin
+    Treeorder: [Sniping, Cunning, Bloodshed]
+    Trees:
+        Sniping:
+        Cunning:
+        Bloodshed:
+Krieg:
+    Class: Psycho
+    Treeorder: [Bloodlust, Mania, Hellborn]
+    Trees:
+        Bloodlust:
+        Mania:
+        Hellborn:

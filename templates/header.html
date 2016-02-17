@@ -1,0 +1,52 @@
+<html>
+<link rel="stylesheet" media="screen" href="/static/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/static/b2.css">
+<script src="/static/jquery-1.12.0.min.js"></script>
+<script src="/static/bootstrap.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<title>{{ title }}</title></head>
+
+<body class="body">
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">{{ title }}</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        {% if GAMES.BORDERLANDS2 %}
+          <li><a href="http://sparfires.imgur.com/">Gibbed Codes</a></li>
+        {% endif %}
+        {% if GAMES.BORDERLANDS2 or GAMES.BORDERLANDSTPS %}
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Weapon Parts (2/TPS) <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="/weaponparts/Sniper/">Sniper Rifles</a></li>
+              <li><a href="/weaponparts/SMG/">Submachine Guns</a></li>
+              <li><a href="/weaponparts/AssaultRifle/">Assault Rifles</a></li>
+              <li><a href="/weaponparts/Pistols/">Pistols</a></li>
+              <li><a href="/weaponparts/Shotguns/">Shotguns</a></li>
+              <li><a href="/weaponparts/RocketLaunchers/">Rocket Launchers</a></li>
+              {% if GAMES.BORDERLANDSTPS %}
+                <li class="divider"></li>
+                <li><a href="/weaponparts/Lasers/">Lasers (TPS Only)</a></li>
+              {% endif %}
+            </ul>
+          </li>
+        {% endif %}
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+{% block body %}{% endblock %}
+</html>
